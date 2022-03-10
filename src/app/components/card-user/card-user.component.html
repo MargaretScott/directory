@@ -1,0 +1,10 @@
+<div class="card shadow p-3">
+  <div class="d-flex">
+    <img class="imagen" [src]="miUser?.avatar">
+    <div class="ms-4 d-none d-md-block">
+      <h3>{{miUser?.first_name}}</h3>
+      <p>Email: {{miUser?.email}}</p>
+    </div>
+  </div>
+  <button class="btn btn-dangerin mt-3" [routerLink]="['/user', miUser?.id]">See Data</button>
+</div>

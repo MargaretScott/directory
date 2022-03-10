@@ -1,0 +1,14 @@
+<div class="container mt-4 card p-5 shadow">
+  <h2>User registration</h2>
+  <form #registerForm="ngForm" (ngSubmit)="recogerDatosForm(registerForm)">
+    <div>
+      <label class="form-label" for="name">User Name</label>
+      <input class="form-control" type="text" name="name" ngModel placeholder="introduce tu nombre">
+    </div>
+    <div>
+      <label class="form-label" for="email">Email</label>
+      <input class="form-control" type="text" name="email" ngModel placeholder="introduce tu email">
+    </div>
+    <input type="submit" value="Register" class="btn btn-dangerin mt-4">
+  </form>
+</div>

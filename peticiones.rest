@@ -1,0 +1,11 @@
+####
+GET https://reqres.in/api/users?page=2
+
+####
+POST https://reqres.in/api/users
+Content-Type: application/json
+
+{
+    "name": "Juan Antonio",
+    "email": "Desarrollador"
+}
